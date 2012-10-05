@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.hsaugsburg.smas.cep</groupId>
   <artifactId>cep-model</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.2</version>
   <inceptionYear>2008</inceptionYear>
   <properties>
     <scala.version>2.9.2</scala.version>

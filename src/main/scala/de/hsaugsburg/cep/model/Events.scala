@@ -35,7 +35,7 @@ case class WorkEvent(eventId: String,
 case class ItemsChangedEvent(eventId: String,
   timestamp: Long,
   itemId: String,
-  changeType: ChangeType)
+  changeType: ChangeType.ChangeType)
   extends ItemDataEvent
 
 sealed trait ProblemEvent

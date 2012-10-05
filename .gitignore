@@ -17,3 +17,6 @@ project/plugins/project/
 .cache
 .project
 .settings/
+
+# IntelliJ IDEA specific
+.idea

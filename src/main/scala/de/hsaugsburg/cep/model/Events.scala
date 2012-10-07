@@ -29,7 +29,8 @@ case class ItemMovedEvent(eventId: String,
 case class WorkEvent(eventId: String,
   timestamp: Long,
   itemId: String,
-  workerId: String)
+  workerId: String,
+  work: Work.Work)
   extends ItemDataEvent
 
 case class ItemsChangedEvent(eventId: String,

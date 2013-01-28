@@ -10,7 +10,7 @@ sealed trait Event extends BaseMessage {
 
 case class SensorEvent(eventId: String,
   timestamp: Long,
-  state: Boolean,
+  state: SensorState.SensorState,
   sensorId: String)
   extends Event
 

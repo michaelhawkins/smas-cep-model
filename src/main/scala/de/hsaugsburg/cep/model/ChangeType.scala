@@ -1,7 +1,10 @@
 package de.hsaugsburg.cep.model
 
+/**
+ * Specifies the type of a ItemsChangedEvent. An item is either
+ * Added or Removed.
+ */
 object ChangeType extends Enumeration {
   type ChangeType = Value
-  val Removed = Value("Removed")
-  val Added = Value("Added")
+  val Removed, Added = Value
 }
